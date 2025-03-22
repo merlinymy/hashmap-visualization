@@ -12,13 +12,16 @@
     <script src="index.js" defer="true"></script>
 </head>
 <body>
+    <header class="retro-title">
+        <h1>🟩 HASHMAP VISUALIZER</h1>
+        <p class="subtitle">-- by Merlin --</p>
+    </header>
+    
     <div class="controls">
         <label for="key">Key:</label>
         <input type="text" id="key">
         <label for="value">Value:</label>
         <input type="text" id="value">
-        <!-- <label for="load-factor">Load Factor:</label>
-        <input type="text" id="load-factor"> -->
         <button class="set">Set</button>
         <button class="get">Get</button>
         <button class="has">Has</button>
@@ -29,23 +32,16 @@
         <button class="values">Values</button>
         <button class="entries">Entries</button>
     </div>
+    
     <div class="canvas">
-        <div class="buckets">
-   
-        </div>
-        <div class="log">
-        </div>
+        <div class="buckets"></div>
+        <div class="log"></div>
     </div>
-    <footer>
-        <p>Built by <strong>Merlin Yang</strong></p>
-        <div class="footer-links">
-            <a href="https://github.com/merlinymy" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
-            </a>
-            <a href="https://www.linkedin.com/in/mengyumerlin/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
-            </a>
-        </div>
+    
+    <footer class="retro-footer">
+        <p><a href="https://github.com/merlinymy" target="_blank">Github</a></p>
+        <p><a href="https://www.linkedin.com/in/mengyumerlin/" target="_blank">LinkedIn</a></p>
     </footer>
+    
 </body>
 </html>

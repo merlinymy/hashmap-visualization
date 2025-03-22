@@ -53,6 +53,10 @@ input {
     width: 120px;
 }
 
+input:focus {
+    outline: none;
+}
+
 button {
     background-color: black;
     color: var(--color-green);
